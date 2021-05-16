@@ -1,0 +1,427 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb4452e2410c04b34915077cbe0f3a4d, type: 3}
+  m_Name: EM_Settings
+  m_EditorClassIdentifier: 
+  mAdvertisingSettings:
+    mAutoLoadAdsMode: 1
+    mAdCheckingInterval: 5
+    mAdLoadingInterval: 5
+    mIosDefaultAdNetworks:
+      bannerAdNetwork: 0
+      interstitialAdNetwork: 2
+      rewardedAdNetwork: 2
+    mAndroidDefaultAdNetworks:
+      bannerAdNetwork: 0
+      interstitialAdNetwork: 2
+      rewardedAdNetwork: 2
+    mAdColony:
+      mAppId:
+        mIosId: 
+        mAndroidId: 
+      mOrientation: 2
+      mEnableRewardedAdPrePopup: 0
+      mEnableRewardedAdPostPopup: 0
+      mDefaultInterstitialAdId:
+        mIosId: 
+        mAndroidId: 
+      mDefaultRewardedAdId:
+        mIosId: 
+        mAndroidId: 
+      mCustomInterstitialAdIds:
+        keys: []
+        values: []
+      mCustomRewardedAdIds:
+        keys: []
+        values: []
+    mAdMob:
+      mTargetingSettings:
+        mTagForChildDirectedTreatment: 0
+        mExtraOptions:
+          keys: []
+          values: []
+      mEnableTestMode: 0
+      mAppId:
+        mIosId: ca-app-pub-2697339358784861~7725630982
+        mAndroidId: ca-app-pub-2697339358784861~7725630982
+      mDefaultBannerAdId:
+        mIosId: 
+        mAndroidId: 
+      mDefaultInterstitialAdId:
+        mIosId: ca-app-pub-2697339358784861/3855750304
+        mAndroidId: ca-app-pub-2697339358784861/3855750304
+      mDefaultRewardedAdId:
+        mIosId: ca-app-pub-2697339358784861/4977260282
+        mAndroidId: ca-app-pub-2697339358784861/4977260282
+      mCustomBannerAdIds:
+        keys: []
+        values: []
+      mCustomInterstitialAdIds:
+        keys: []
+        values: []
+      mCustomRewardedAdIds:
+        keys: []
+        values: []
+    mAppLovin:
+      mEnableTestMode: 0
+      mAgeRestrictMode: 0
+      mSDKKey: 
+      mDefaultBannerAdId:
+        mIosId: 
+        mAndroidId: 
+      mDefaultInterstitialAdId:
+        mIosId: 
+        mAndroidId: 
+      mDefaultRewardedAdId:
+        mIosId: 
+        mAndroidId: 
+      mCustomBannerAdIds:
+        keys: []
+        values: []
+      mCustomInterstitialAdIds:
+        keys: []
+        values: []
+      mCustomRewardedAdIds:
+        keys: []
+        values: []
+    mFBAudience:
+      mBannerAdSize: 0
+      mEnableTestMode: 0
+      mTestDevices: []
+      mDefaultBannerId:
+        mIosId: 
+        mAndroidId: 
+      mDefaultInterstitialAdId:
+        mIosId: 
+        mAndroidId: 
+      mDefaultRewardedAdId:
+        mIosId: 
+        mAndroidId: 
+      mCustomBannerIds:
+        keys: []
+        values: []
+      mCustomInterstitialAdIds:
+        keys: []
+        values: []
+      mCustomRewardedAdIds:
+        keys: []
+        values: []
+    mChartboost:
+      mCustomInterstitialPlacements: []
+      mCustomRewardedPlacements: []
+    mHeyzap:
+      mPublisherId: 
+      mShowTestSuite: 0
+      mCustomInterstitialPlacements: []
+      mCustomRewardedPlacements: []
+    mIronSource:
+      mAppId:
+        mIosId: 
+        mAndroidId: 
+      mUseAdvancedSetting: 0
+      mSegments:
+        age: 0
+        gender: 
+        level: 0
+        isPaying: 0
+        userCreationDate: 0
+        iapt: 0
+        segmentName: 
+        customParams:
+          keys: []
+          values: []
+    mMoPub:
+      mReportAppOpen: 0
+      mITuneAppID: 
+      mEnableLocationPassing: 0
+      mUseAdvancedSetting: 0
+      mAllowLegitimateInterest: 0
+      mLogLevel: 70
+      mMediatedNetworks: []
+      mAutoRequestConsent: 0
+      mForceGdprApplicable: 0
+      mDefaultBannerId:
+        mIosId: 
+        mAndroidId: 
+      mDefaultInterstitialAdId:
+        mIosId: 
+        mAndroidId: 
+      mDefaultRewardedAdId:
+        mIosId: 
+        mAndroidId: 
+      mCustomBannerIds:
+        keys: []
+        values: []
+      mCustomInterstitialAdIds:
+        keys: []
+        values: []
+      mCustomRewardedAdIds:
+        keys: []
+        values: []
+    mTapjoy:
+      mAutoReconnect: 1
+      mAutoReconnectInterval: 10
+      mDefaultInterstitialAdId:
+        mIosId: 
+        mAndroidId: 
+      mDefaultRewardedAdId:
+        mIosId: 
+        mAndroidId: 
+      mCustomInterstitialAdIds:
+        keys: []
+        values: []
+      mCustomRewardedAdIds:
+        keys: []
+        values: []
+    mUnityAds:
+      mAppId:
+        mIosId: 
+        mAndroidId: 
+      mDefaultBannerAdId:
+        mIosId: 
+        mAndroidId: 
+      mDefaultInterstitialAdId:
+        mIosId: video
+        mAndroidId: video
+      mDefaultRewardedAdId:
+        mIosId: rewardedVideo
+        mAndroidId: rewardedVideo
+      mCustomBannerAdIds:
+        keys: []
+        values: []
+      mCustomInterstitialAdIds:
+        keys: []
+        values: []
+      mCustomRewardedAdIds:
+        keys: []
+        values: []
+      mEnableTestMode: 0
+  mGameServiceSettings:
+    mAutoInit: 1
+    mAutoInitDelay: 1
+    mAndroidMaxLoginRequests: 3
+    mGpgsDebugLogEnabled: 0
+    mGpgsPopupGravity: 0
+    mLeaderboards:
+    - _name: Score
+      _iosId: Score
+      _androidId: CgkIps-N48QUEAIQAA
+    mAchievements:
+    - _name: Score_10
+      _iosId: Score_10
+      _androidId: CgkIps-N48QUEAIQBg
+    - _name: Score_20
+      _iosId: Score_20
+      _androidId: CgkIps-N48QUEAIQBw
+    - _name: Score_30
+      _iosId: Score_30
+      _androidId: CgkIps-N48QUEAIQCA
+    - _name: Score_40
+      _iosId: Score_40
+      _androidId: CgkIps-N48QUEAIQBQ
+    - _name: Score_50
+      _iosId: Score_50
+      _androidId: CgkIps-N48QUEAIQBA
+    - _name: Score_60
+      _iosId: Score_60
+      _androidId: CgkIps-N48QUEAIQAw
+    - _name: Score_70
+      _iosId: Score_70
+      _androidId: CgkIps-N48QUEAIQAg
+    - _name: Score_80
+      _iosId: Score_80
+      _androidId: CgkIps-N48QUEAIQCQ
+    - _name: Score_90
+      _iosId: Score_90
+      _androidId: CgkIps-N48QUEAIQCg
+    - _name: Score_100
+      _iosId: Score_100
+      _androidId: CgkIps-N48QUEAIQCw
+    - _name: Score_110
+      _iosId: Score_110
+      _androidId: CgkIps-N48QUEAIQDA
+    - _name: Score_120
+      _iosId: Score_120
+      _androidId: CgkIps-N48QUEAIQDQ
+    - _name: Score_130
+      _iosId: Score_130
+      _androidId: CgkIps-N48QUEAIQDg
+    - _name: Score_140
+      _iosId: Score_140
+      _androidId: CgkIps-N48QUEAIQDw
+    - _name: Score_150
+      _iosId: Score_150
+      _androidId: CgkIps-N48QUEAIQEA
+    - _name: Score_160
+      _iosId: Score_160
+      _androidId: CgkIps-N48QUEAIQEQ
+    - _name: Score_170
+      _iosId: Score_170
+      _androidId: CgkIps-N48QUEAIQEg
+    - _name: Score_180
+      _iosId: Score_180
+      _androidId: CgkIps-N48QUEAIQEw
+    - _name: Score_190
+      _iosId: Score_190
+      _androidId: CgkIps-N48QUEAIQFA
+    - _name: Score_200
+      _iosId: Score_200
+      _androidId: CgkIps-N48QUEAIQFQ
+    mAndroidXmlResources: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<!--\r\nGoogle
+      Play game services IDs.\r\nSave this file as res/values/games-ids.xml in your
+      project.\r\n-->\r\n<resources>\r\n  <!-- app_id -->\r\n  <string name=\"app_id\"
+      translatable=\"false\">705656219558</string>\r\n  <!-- achievement Score_10
+      -->\r\n  <string name=\"achievement_score_10\" translatable=\"false\">CgkIps-N48QUEAIQBg</string>\r\n 
+      <!-- achievement Score_20 -->\r\n  <string name=\"achievement_score_20\" translatable=\"false\">CgkIps-N48QUEAIQBw</string>\r\n 
+      <!-- achievement Score_30 -->\r\n  <string name=\"achievement_score_30\" translatable=\"false\">CgkIps-N48QUEAIQCA</string>\r\n 
+      <!-- achievement Score_40 -->\r\n  <string name=\"achievement_score_40\" translatable=\"false\">CgkIps-N48QUEAIQBQ</string>\r\n 
+      <!-- achievement Score_50 -->\r\n  <string name=\"achievement_score_50\" translatable=\"false\">CgkIps-N48QUEAIQBA</string>\r\n 
+      <!-- achievement Score_60 -->\r\n  <string name=\"achievement_score_60\" translatable=\"false\">CgkIps-N48QUEAIQAw</string>\r\n 
+      <!-- achievement Score_70 -->\r\n  <string name=\"achievement_score_70\" translatable=\"false\">CgkIps-N48QUEAIQAg</string>\r\n 
+      <!-- achievement Score_80 -->\r\n  <string name=\"achievement_score_80\" translatable=\"false\">CgkIps-N48QUEAIQCQ</string>\r\n 
+      <!-- achievement Score_90 -->\r\n  <string name=\"achievement_score_90\" translatable=\"false\">CgkIps-N48QUEAIQCg</string>\r\n 
+      <!-- achievement Score_100 -->\r\n  <string name=\"achievement_score_100\"
+      translatable=\"false\">CgkIps-N48QUEAIQCw</string>\r\n  <!-- achievement Score_110
+      -->\r\n  <string name=\"achievement_score_110\" translatable=\"false\">CgkIps-N48QUEAIQDA</string>\r\n 
+      <!-- achievement Score_120 -->\r\n  <string name=\"achievement_score_120\"
+      translatable=\"false\">CgkIps-N48QUEAIQDQ</string>\r\n  <!-- achievement Score_130
+      -->\r\n  <string name=\"achievement_score_130\" translatable=\"false\">CgkIps-N48QUEAIQDg</string>\r\n 
+      <!-- achievement Score_140 -->\r\n  <string name=\"achievement_score_140\"
+      translatable=\"false\">CgkIps-N48QUEAIQDw</string>\r\n  <!-- achievement Score_150
+      -->\r\n  <string name=\"achievement_score_150\" translatable=\"false\">CgkIps-N48QUEAIQEA</string>\r\n 
+      <!-- achievement Score_160 -->\r\n  <string name=\"achievement_score_160\"
+      translatable=\"false\">CgkIps-N48QUEAIQEQ</string>\r\n  <!-- achievement Score_170
+      -->\r\n  <string name=\"achievement_score_170\" translatable=\"false\">CgkIps-N48QUEAIQEg</string>\r\n 
+      <!-- achievement Score_180 -->\r\n  <string name=\"achievement_score_180\"
+      translatable=\"false\">CgkIps-N48QUEAIQEw</string>\r\n  <!-- achievement Score_190
+      -->\r\n  <string name=\"achievement_score_190\" translatable=\"false\">CgkIps-N48QUEAIQFA</string>\r\n 
+      <!-- achievement Score_200 -->\r\n  <string name=\"achievement_score_200\"
+      translatable=\"false\">CgkIps-N48QUEAIQFQ</string>\r\n  <!-- leaderboard Score
+      -->\r\n  <string name=\"leaderboard_score\" translatable=\"false\">CgkIps-N48QUEAIQAA</string>\r\n</resources>\r\n"
+    mEnableMultiplayer: 0
+    mEnableSavedGames: 0
+    mAutoConflictResolutionStrategy: 0
+    mGpgsDataSource: 0
+  mInAppPurchaseSettings:
+    mAutoInit: 1
+    mTargetAndroidStore: 0
+    mSimulateAppleAskToBuy: 0
+    mInterceptApplePromotionalPurchases: 0
+    mEnableAmazonSandboxTesting: 0
+    mValidateAppleReceipt: 1
+    mValidateGooglePlayReceipt: 1
+    mProducts: []
+  mNotificationSettings:
+    mAutoInit: 1
+    mAutoInitDelay: 0
+    mIosAuthOptions: 7
+    mPushNotificationService: 0
+    mOneSignalAppId: 
+    mFirebaseTopics: []
+    mCategoryGroups: []
+    mDefaultCategory:
+      id: notification.category.default
+      groupId: 
+      name: Default
+      description: 
+      importance: 0
+      enableBadge: 1
+      lights: 1
+      lightColor: {r: 1, g: 1, b: 1, a: 1}
+      vibration: 1
+      vibrationPattern: 
+      lockScreenVisibility: 2
+      sound: 1
+      soundName: 
+      actionButtons: []
+    mUserCategories: []
+    mAndroidPermissions:
+    - mElementName: uses-permission
+      mValue: android.permission.RECEIVE_BOOT_COMPLETED
+  mPrivacySettings:
+    mDefaultConsentDialog:
+      mContent: 
+      mTitle: Privacy Consent
+      mToggles: []
+      mActionButtons:
+      - id: 
+        title: 
+        interactable: 0
+        titleColor: {r: 0, g: 0, b: 0, a: 0}
+        backgroundColor: {r: 0, g: 0, b: 0, a: 0}
+        uninteractableTitleColor: {r: 0, g: 0, b: 0, a: 0}
+        uninteractableBackgroundColor: {r: 0, g: 0, b: 0, a: 0}
+    mConsentDialogComposerSettings:
+      mToggleSelectedIndex: 0
+      mButtonSelectedIndex: 0
+      mEnableCopyPasteMode: 0
+  mRatingRequestSettings:
+    mDefaultRatingDialogContent:
+      mTitle: Rate $PRODUCT_NAME
+      mMessage: How would you rate $PRODUCT_NAME?
+      mLowRatingMessage: That's bad. Would you like to give us some feedback instead?
+      mHighRatingMessage: Awesome! Let's do it!
+      mPostponeButtonText: Not Now
+      mRefuseButtonText: Don't Ask Again
+      mRateButtonText: Rate Now!
+      mCancelButtonText: Cancel
+      mFeedbackButtonText: Send Feedback
+    mMinimumAcceptedStars: 4
+    mSupportEmail: rwdesenv@gmail.com
+    mIosAppId: 
+    mAnnualCap: 12
+    mDelayAfterInstallation: 10
+    mCoolingOffPeriod: 10
+    mIgnoreContraintsInDevelopment: 0
+  mSharingSettings:
+    mAndroidPermissions:
+    - mElementName: uses-permission
+      mValue: android.permission.WRITE_EXTERNAL_STORAGE
+    mIOSInfoPlistItems:
+    - mKey: NSPhotoLibraryUsageDescription
+      mValue: ButtonButton
+    - mKey: NSPhotoLibraryAddUsageDescription
+      mValue: ButtonButton
+  mNativeApisSettings:
+    mIsMediaEnabled: 0
+    mMediaSettings:
+      mAndroidPermissions:
+      - mElementName: uses-permission
+        mValue: android.permission.WRITE_EXTERNAL_STORAGE
+      - mElementName: uses-feature
+        mValue: android.hardware.camera
+      mIOSInfoPlistKeys:
+      - mKey: NSPhotoLibraryUsageDescription
+        mValue: '[Your usage description]'
+      - mKey: NSPhotoLibraryAddUsageDescription
+        mValue: '[Your usage description]'
+      - mKey: NSCameraUsageDescription
+        mValue: '[Your usage description]'
+      - mKey: NSMicrophoneUsageDescription
+        mValue: '[Your usage description]'
+    mIsContactsEnabled: 0
+    mContactsSettings:
+      mAndroidPermissions:
+      - mElementName: uses-permission
+        mValue: android.permission.WRITE_CONTACTS
+      - mElementName: uses-permission
+        mValue: android.permission.READ_CONTACTS
+      mIOSInfoPlistKeys:
+      - mKey: NSContactsUsageDescription
+        mValue: '[Your usage description]'
+  mIsAdModuleEnable: 1
+  mIsIAPModuleEnable: 0
+  mIsGameServiceModuleEnable: 1
+  mIsNotificationModuleEnable: 0
+  mIsSharingModuleEnable: 0
+  mActiveModuleIndex: 8
+  mIsSelectingModule: 0
