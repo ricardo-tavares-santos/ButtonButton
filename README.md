@@ -1,5 +1,5 @@
 # ButtonButton
 
-![](img/ic.png)
+![](img/ic.jpg)
 ![](img/1.jpg)
 ![](img/2.jpg)
